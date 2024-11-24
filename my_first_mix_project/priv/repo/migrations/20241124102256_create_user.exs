@@ -6,8 +6,7 @@ defmodule MyFirstMixProject.Repo.Migrations.CreateUser do
       add :name, :string
       add :email, :string
       add :age, :integer
-      add :insersted_at, :naive_datetime
-      add :updated_at, :naive_datetime
+      timestamps()
     end
   end
 end
